@@ -1,4 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 img {
     width: 400px;
     height: auto;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-button {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
