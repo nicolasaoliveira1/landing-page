@@ -7,6 +7,7 @@ body {
 a {
     text-decoration: none;
     color: #e5e7eb;
+    margin-left: 12px;
 }
 
 img {
@@ -16,16 +17,25 @@ img {
 
 .header {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
-.main-text {
+.text {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #f9faf8;
 }
 
