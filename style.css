@@ -9,21 +9,27 @@ body {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
-    margin-left: 12px;
+    color: #dbd3d3;
 }
 
 img {
-    width: 400px;
-    height: auto;
+    width: auto;
+    height: 240px;
+    border-radius: 5px;
+}
+
+.head-links {
     display: flex;
+    gap: 15px;
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    height: 460px;
+    padding: 200px;
+    padding-top: 10px;
+    padding-bottom: 120px;
 }
 
 .top {
@@ -33,9 +39,17 @@ img {
     margin-bottom: 90px;
 }
 
-.end {
+.hero {
     display: flex;
     flex-direction: column;
+    width: 450px;
+    gap: 8px;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .logo {
@@ -52,7 +66,7 @@ img {
 
 .subtext {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #dbd3d3;
 }
 
 .header-button {
