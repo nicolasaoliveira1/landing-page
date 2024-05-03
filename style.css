@@ -44,7 +44,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 450px;
-    gap: 8px;
+    gap: 5px;
 }
 
 .end {
