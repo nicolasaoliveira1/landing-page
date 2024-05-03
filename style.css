@@ -12,10 +12,16 @@ a {
     color: #dbd3d3;
 }
 
-img {
+#pug {
     width: auto;
     height: 240px;
     border-radius: 5px;
+}
+
+img {
+    width: auto;
+    height: 125px;
+    border-radius: 6px;
 }
 
 .head-links {
