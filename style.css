@@ -10,11 +10,12 @@ body {
 a {
     text-decoration: none;
     color: #dbd3d3;
+    font-size: 19px;
 }
 
 #pug {
     width: auto;
-    height: 240px;
+    height: 360px;
     border-radius: 5px;
 }
 
@@ -24,7 +25,7 @@ a {
 
 img {
     width: auto;
-    height: 125px;
+    height: 275px;
     border-radius: 6px;
 }
 
@@ -47,13 +48,13 @@ img {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 90px;
-    gap: 260px;
+    gap: 600px;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 600px;
     gap: 5px;
 }
 
@@ -64,40 +65,41 @@ img {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 32px;
     color: #f9faf8;
     font-weight: bold;
 }
 
 .text {
-    font-size: 48px;
+    font-size: 56px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
 .subtext {
-    font-size: 18px;
+    font-size: 24px;
     color: #b9afaf;
 }
 
 .header-button {
     background-color: #3882f6;
     color: #f9faf8;
-    font-size: 15px;
+    font-size: 24px;
     font-weight: bold;
-    width: 100px;
+    width: 210px;
     border-radius: 6px;
-    padding: 6px;
+    padding: 8px;
     border: none;
+    margin-top: 8px;
 }
 
 .title {
-    font-size: 32px;
+    font-size: 52px;
     font-weight: bold;
     color: #1F2937;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 25px;
 }
 
 .information {
@@ -105,13 +107,22 @@ img {
     padding: 20px;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 100px;
     margin-bottom: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .item {
     width: 200px;
+    display: flex;
+    font-size: 20px;
     text-align: center;
+    margin-top: 12px;
 }
 
 .quote {
@@ -124,17 +135,17 @@ img {
 }
 
 .phrase {
-    font-size: 36px;
+    font-size: 50px;
     font-style: italic;
     color: #1F2937;
-    width: 820px;
+    width: 1500px;
 }
 
 .thor {
     font-size: 24px;
     color: #10161d;
     font-weight: bold;
-    margin-left: 430px;
+    margin-left: 1200px;
 }
 
 .cta {
@@ -152,28 +163,28 @@ img {
     color: #ffffff;
     padding: 40px 115px;
     border-radius: 10px;
-    width: 700px;
+    width: 1100px;
 }
 
 .sign {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: bold;
     border: 3px solid #e5e7eb;
     background-color: #3882f6;
     border-radius: 6px;
     margin: 0;
-    padding: 0 32px;
-    height: 35px;
+    padding: 0 36px;
+    height: 38px;
 }
 
 .one {
-    font-size: 20px;
+    font-size: 32px;
     font-weight: bold;
 }
 
 .two {
-    font-size: 16px;
+    font-size: 28px;
 }
 
 .footer {
