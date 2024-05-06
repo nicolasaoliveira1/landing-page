@@ -15,7 +15,7 @@ a {
 
 #pug {
     width: auto;
-    height: 360px;
+    height: 500px;
     border-radius: 5px;
 }
 
@@ -60,9 +60,10 @@ img {
 
 .end {
     display: flex;
-    gap: 100px;
+    gap: 25px;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .logo {
