@@ -136,3 +136,39 @@ img {
     font-weight: bold;
     margin-left: 430px;
 }
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #ffffff;
+    padding: 35px 105px;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.sign {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 6px;
+    margin: 0;
+}
+
+.one {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.two {
+    font-size: 16px;
+}
