@@ -147,9 +147,10 @@ img {
 .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #3882f6;
     color: #ffffff;
-    padding: 35px 105px;
+    padding: 40px 115px;
     border-radius: 10px;
     width: 700px;
 }
@@ -162,6 +163,8 @@ img {
     background-color: #3882f6;
     border-radius: 6px;
     margin: 0;
+    padding: 0 32px;
+    height: 35px;
 }
 
 .one {
