@@ -20,7 +20,7 @@ a {
 }
 
 .pug {
-    border: 2px solid #3882f6
+    border: 2px solid #3882f6;
 }
 
 img {
@@ -31,7 +31,7 @@ img {
 
 .head-links {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .header {
@@ -45,10 +45,10 @@ img {
 
 .top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 90px;
-    gap: 600px;
+    gap: 0px;
 }
 
 .hero {
@@ -60,6 +60,7 @@ img {
 
 .end {
     display: flex;
+    gap: 100px;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -104,6 +105,7 @@ img {
 
 .information {
     display: flex;
+    flex-wrap: wrap;
     padding: 20px;
     justify-content: center;
     align-items: center;
@@ -131,21 +133,22 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 120px;
+    padding: 60px 300px;
+    gap: 50px;
 }
 
 .phrase {
     font-size: 50px;
     font-style: italic;
     color: #1F2937;
-    width: 1500px;
+    width: auto;
 }
 
 .thor {
     font-size: 24px;
     color: #10161d;
     font-weight: bold;
-    margin-left: 1200px;
+    margin-left: auto;
 }
 
 .cta {
@@ -164,18 +167,19 @@ img {
     padding: 40px 115px;
     border-radius: 10px;
     width: 1100px;
+    gap: 30px;
 }
 
 .sign {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     border: 3px solid #e5e7eb;
     background-color: #3882f6;
     border-radius: 6px;
     margin: 0;
-    padding: 0 36px;
-    height: 38px;
+    padding: 7px 35px;
+    height: auto;
 }
 
 .one {
