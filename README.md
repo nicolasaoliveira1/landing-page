@@ -1,6 +1,6 @@
 # landing-page
-Project of a landing page to study
+Simple Landing Page
 
 This is a web page I made using HTML and CSS, following The Odin Project foundations curriculum.
 
-Hope I can practice and improve my skills on Web Design making this simple website
+Hope I can practice and improve my skills on Web Design (HTML, CSS and GIT) making this simple website
